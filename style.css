@@ -1,0 +1,45 @@
+/*
+	Theme Name: onepagetheme
+*/
+body{
+	margin: 0;
+}
+.main-menu ul{
+	list-style: none;
+	padding: 0;
+	background: black;
+	margin: 0;
+}
+.main-menu ul:after{
+	content: '';
+	clear: both;
+	display: block;
+}
+.main-menu ul li{
+	float: left;
+}
+.main-menu ul li a{
+	text-emphasis: none;
+	text-decoration: none;
+	color: white;
+	padding: 10px 10px;
+	display: inline-block;
+}
+.content-area{
+	background: #DDD;
+	width: 80%;
+	margin: auto;
+}
+.fixed{
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
+	top: 0;
+	left: 0;
+}
+article{
+	margin-top: 10px;
+}
+.admin-bar .main-menu{
+	margin-top: 50px;
+}
